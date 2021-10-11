@@ -1,12 +1,12 @@
 # Swing Path Tracking
 
-This is a repo of the final project of the embedded system course. (2021 spring)
+Project of Embedded System: Track the path of bat while swinging ,then plot and visualize the path to improve baseball training efficiency.
 
 ## Motivation
-- We are in the baseball team of NYCU
-- Batting is a important part in baseball
-- We want to track the path of bat while swinging
+- Baseball team of NYCU
 - Improve training efficiency
+- Batting is quite important of baseball
+- Track the path of bat while swinging
 - Help player to adjust batting pose
 
 ## Idea
@@ -14,9 +14,19 @@ This is a repo of the final project of the embedded system course. (2021 spring)
 - Plot and visualize the path
 - Show the result via Line Notify
 
+## Used knowledge of class
+- Physical: Acceleration to Displacement
+- Calculus: Intergration
+- Linear algebra: Coordinate transformation
+- Signal and System: Bandpass filter, FFT
+- Computer Network: MQTT
+- Electronic Lab: Hardware design
+- Embedded System: AHRS (Sensor Fusion)
+- IoT: LINE Notify
+
 ## Hardware
-- Raspberry Pi: MQTT Broker and client, data processing and visualization, send result via Line
-- ESP32-S: MQTT Client, collect raw data from the IMU
+- Raspberry Pi: MQTT Broker, and data processing.
+- ESP32-S: MQTT Client, collect raw data.
 - GY-801: IMU
 - Battery (18650)
 
